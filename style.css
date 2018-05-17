@@ -1,0 +1,90 @@
+.coolTitle {
+  text-align: center;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 40px;
+  transform: skewY(-10deg);
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: tomato;
+  text-shadow: 
+    -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
+    -30px 20px 40px dimgrey;
+}
+
+li {
+  color: #fff;
+  margin-left: 200px;
+}
+
+h1, p {
+  color:#ffffff;
+  margin-left: 200px;
+}
+
+button {
+  color: #fff; 
+  background: #181aa0;
+  border-radius: #a0829b;
+  box-shadow: 2px 2px 5px #0f10464b;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+button:hover {
+  color: #181aa0;
+  background:  #fff; 
+  border-radius: #a0829b;
+  animation: color-it-in 2s;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.duringClick {
+  box-shadow: none;
+}
+
+@keyframes color-it-in {
+  0% {
+    color: #ffffff;
+    background: #181aa0;
+  }
+  100% {
+    color: #181aa0;
+    background: #ffffff;
+  }
+}
+
+body {
+  background-color: #07d9fc;
+}
+
+input {
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 200px;
+}
+
+.testingIt {
+  text-decoration-line: line-through;
+}
+
+.deleteButton {
+  color: #fff; 
+  background: #181aa0;
+  border-radius: #a0829b;
+  box-shadow: 2px 2px 5px #0f10464b;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.done {
+  text-decoration: line-through #ff3c3c;
+}
