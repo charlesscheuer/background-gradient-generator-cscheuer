@@ -16,8 +16,7 @@
     -5px -5px 0 firebrick,
     -6px -6px 0 firebrick,
     -7px -7px 0 firebrick,
-    -8px -8px 0 firebrick,
-    -30px 20px 40px dimgrey;
+    -8px -8px 0 firebrick
 }
 
 li {
@@ -65,7 +64,7 @@ button:hover {
 }
 
 body {
-  background-color: #07d9fc;
+  background-color: #322a31;
 }
 
 input {
