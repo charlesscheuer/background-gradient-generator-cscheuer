@@ -7,33 +7,6 @@ function inputLength() {
 	return input.value.length;
 }
 
-// function createListElement() {
-// 	var li = document.createElement("li");
-// 	li.appendChild(document.createTextNode(input.value));
-// 	ul.appendChild(li);
-
-// 	li.addEventListener("click", function() {
-// 		var finished = this.classList.toggle("done");
-// 		var removeButton = document.createElement("button");
-// 		removeButton.classList.add("deleteButton");
-
-// 		if (finished) {
-// 			removeButton.appendChild(document.createTextNode("remove"));
-// 			li.appendChild(removeButton);
-// 			removeButton.addEventListener("click", function () {
-// 				this.parentElement.remove();
-// 			})
-// 		}
-// 	})
-
-
-
-
-
-// }
-
-
-
 function createListElement () {
 	var li = document.createElement("li");
 	li.appendChild(document.createTextNode(input.value));
@@ -76,21 +49,6 @@ function addListAfterPress(event) {
 		createListElement();
 	}
 }
-
-// function listStrikethrough(event) {
-// 	var listItem = document.querySelector("li");
-// 	listItem.classList.toggle("done");
-// }
-
-// function deleteListItem(event) {
-// 	var itemToDelete = document.getElementById("list");
-// 	var myRemovedLink = myLinkList.lastChild;
-// 	myLinkList.removeChild(myRemovedLink);
-// }
-
-// li.addEventListener("click", listStrikethrough)
-
-// deleteButton.addEventListener("click", deleteListItem)
 
 button.addEventListener("click", addListAfterClick )
 
